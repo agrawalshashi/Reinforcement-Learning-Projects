@@ -50,6 +50,26 @@ A Reinforcement Learning implementation where an agent learns to play Flappy Bir
 
 ---
 
+### 3. MountainCar 🚗⛰️
+
+A Q-Learning implementation on the MountainCar environment where the agent learns how to build momentum and reach the goal.
+
+**Algorithm:**
+- Q-Learning
+
+**Concepts Covered:**
+- Continuous State Space
+- State Discretization
+- Q-Table
+- Epsilon-Greedy Policy
+- Exploration vs Exploitation
+- Temporal Difference Learning
+- Reward Tracking
+- Training and Evaluation
+
+📁 [`MountainCar/`](./MountainCar)
+
+---
 
 ## 🧠 Reinforcement Learning Concepts
 
@@ -67,6 +87,7 @@ Through these projects, I am exploring:
 - Exploration vs Exploitation
 - Epsilon-Greedy Strategy
 - Q-Tables
+- State Discretization
 - Deep Q-Networks (DQN)
 - Experience Replay
 
@@ -81,6 +102,14 @@ Cliff Walking
      │
      ├── Q-Learning
      └── SARSA
+          ↓
+     Tabular RL
+          ↓
+MountainCar
+     │
+     └── Q-Learning
+          ↓
+  State Discretization
           ↓
    Deep Reinforcement Learning
           ↓
